@@ -1,2 +1,3 @@
-	name: TraCiA Labs
-	markdown: kramdown
+name: TraCiA Labs
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
