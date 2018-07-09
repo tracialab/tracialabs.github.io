@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+	<title>TraCiA Labs' Blog</title>
+	<link href="https://tracialab.github.io/blog/atom.xml" rel="self"/>
+	<link href="https://tracialab.github.io/blog"/>
+	<updated>2018-07-09T17:39:55+09:00</updated>
+	<id>https://tracialab.github.io/blog</id>
+	<author>
+		<name>TraCiA Labs</name>
+		<email>tracialabs@gmail.com</email>
+	</author>
+
+	
+		<entry>
+			<title>TraCiA Labs Launches Site</title>
+			<link href="https://tracialab.github.io/blog/2018/02/01/tracialabs-site-launched"/>
+			<updated>2018-02-01T00:00:00+09:00</updated>
+			<id>https://tracialab.github.io/blog/2018/02/01/tracialabs-site-launched</id>
+			<content type="html">&lt;p&gt;Well. Finally got around to launcing this website together.&lt;/p&gt;
+</content>
+		</entry>
+	
+
+</feed>
