@@ -1,10 +1,17 @@
-
-
 <style>
+
 body {
-    background-color:#999;
+    background-color:white;
     background-repeat:no-repeat;
     background-position: center;
+    background-size:100%;
+    height:auto;
+}
+
+.topbar{
+    background-color:black;
+    padding-top:1px;
+    padding-bottom: 1px;
 }
 
 nav ul, footer ul {
@@ -13,18 +20,6 @@ nav ul, footer ul {
     list-style: none;
     font-weight: bold;
     text-align: center;
-
-    
-}
-
-
-.blurb{
-    text-align: center;
-}
-
-
-.image{
-    background-color:aqua;
 }
 
 
@@ -36,9 +31,10 @@ nav ul, footer ul {
 nav ul li, footer ul li {
     display: inline;
     margin-right: 10px; /*declares space between each tab*/
-    color:white;
-    margin-bottom: 1px;
+    color:blue;
+    margin-bottom: 1px;  
 }
+
 a {
     color:#66C7BD;
     
@@ -47,81 +43,6 @@ a:hover {
     text-decoration: underline;
 }
 
-
-.body{
-    background-image:url("https://dynaimage.cdn.cnn.com/cnn/q_auto,w_1100,c_fill,g_auto,h_619,ar_16:9/http%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F171219175320-shanti1.jpg")
-}
-.hi{
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    left: 0;
-    line-height: 100px;
-    margin: auto;
-    margin-top: -100px;
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    text-align: center;
-    color:#FAFAFA;
-
-}
-.footer{
-    
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
-    text-align: center;
-    line-height: 400px;
-    margin: auto;
-    margin-top: -100px;
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    text-align: center;
-    animation: fadeIn 3s;
-    font-weight:bold;
-    
-}
-
-/*
-.lower{
-    background-color:black;
-    padding-top:5px;
-    padding-bottom:5px;
-    padding-left:2px;
-    padding-right:2px;
-}
-*/
-body{
-    background-image:url("https://dynaimage.cdn.cnn.com/cnn/q_auto,w_1100,c_fill,g_auto,h_619,ar_16:9/http%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F171219175320-shanti1.jpg");
-    background-repeat:no-repeat;
-    
-}
-.welcome{
-       left: 0;
-    
-    line-height: 200px;
-    margin: auto;
-    margin-top: -100px;
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    text-align: center;
-    animation: fadeIn 5s;
-    font-weight:bold;
-    color:#EFEFEF;
-
-    
-}
-.topbar{
-    color:aqua;
-}
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #999;
-}
 footer {
     border-top: 3px solid #d5d5d5;
     font-size: .8em;
@@ -142,23 +63,44 @@ ul.posts li {
     font-weight:bold;
     color:white;
 }
+p {
+    text-align: center;
+    line-height: 1.4em;
+    color: #999;
+}
+
+h3{
+    color:white;
+    text-align: center;
+}
+
 h2{
     color:white;
+    text-align: center;
 }
 h1{
     animation:fadeIn 5s;
     color:white;
+    text-align: center;
+}
+.container{
+    height:100%;
 }
 
-.blurb{
-    font-family:helvelica;
-    
+.footerroll{
+    border-top:3px;
+    left:0px;
+    width:100%;
+    bottom:0px;
+    position:fixed;
+    color:white;
     
 }
-@keyframes fadeIn {
-   0% {opacity: 0;}
-   100% {opacity: 1;}
-} 
+/*
+.blurb{
+    height:1000px;
+}
+*/
 
 .aboutp{
     color:white;
@@ -170,6 +112,10 @@ h1{
     height:10%;
 }
 
+@keyframes fadeIn {
+   0% {opacity: 0;}
+   100% {opacity: 1;}
+} 
 
 /*environmentally friendly thene, show travelling/tourism in simple design*/
 

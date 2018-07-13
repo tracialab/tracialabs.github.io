@@ -4,11 +4,12 @@
 		<title>{{ page.title }}</title>
 		<!-- link to main stylesheet -->
 		<link rel="stylesheet" type="text/css" href="/css/main.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
 	<body>
         
         
-        <div class="lower">
+
 		<nav>
     		<ul>
         		<li><a href="/">Home</a></li>
@@ -17,17 +18,21 @@
         		<li><a href="/blog">Blog</a></li>
     		</ul>
 		</nav>
+               
 		<div class="container">
     
     {{ content }}
     
 		</div><!-- /.container -->
+         
+    <div class="footerroll">        
 		<footer>
     		<ul>
         		<li><a href="mailto:tracialabs@gmail.com">email</a></li>
         		<li><a href="https://github.com/tracialab">github.com/tracialab</a></li>
 			</ul>
 		</footer>
-            </div>
+        </div>
+           
 	</body>
 </html>
