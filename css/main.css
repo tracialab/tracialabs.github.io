@@ -8,12 +8,6 @@ body {
     height:auto;
 }
 
-.topbar{
-    background-color:black;
-    padding-top:1px;
-    padding-bottom: 1px;
-}
-
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
@@ -116,6 +110,7 @@ h1{
    0% {opacity: 0;}
    100% {opacity: 1;}
 } 
+
 
 /*environmentally friendly thene, show travelling/tourism in simple design*/
 
