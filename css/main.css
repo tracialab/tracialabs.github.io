@@ -16,12 +16,6 @@ nav ul, footer ul {
     text-align: center;
 }
 
-
-.wetransform{
-    font-weight:lighter;
-}
-
-
 nav ul li, footer ul li {
     display: inline;
     margin-right: 10px; /*declares space between each tab*/
@@ -60,7 +54,7 @@ ul.posts li {
 p {
     text-align: center;
     line-height: 1.4em;
-    color: #999;
+    color: white;
 }
 
 h3{
@@ -90,15 +84,7 @@ h1{
     color:white;
     
 }
-/*
-.blurb{
-    height:1000px;
-}
-*/
 
-.aboutp{
-    color:white;
-}
 
 .bottombar{
     color:black;
@@ -112,5 +98,47 @@ h1{
 } 
 
 
-/*environmentally friendly thene, show travelling/tourism in simple design*/
+@media screen and (max-width: 340px) {
+    img{  
+        width:200px;
+        height:85px;  
+  }
+}
+        
+@media screen and (max-width: 375px) {
+    img{
+        width:;
+        height:
+  }
+}
+
+   
+@media screen and (max-width: 1024px) {
+    img{
+        width:;
+        height:;
+  }
+}
+  
+ @media screen and (max-width: 1440px) {
+    img{
+        width:;
+        height:;
+  }
+}
+  
+@media screen and (max-width: 1680px) {
+    img{
+        width:;
+        height:;
+  }
+}
+    
+@media screen and (max-width: 1920px) {
+    img{
+        width:;
+        height:;
+  }
+}
+  
 
